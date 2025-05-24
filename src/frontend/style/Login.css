@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #fcb7d4, #fca4c7);
+  }
+  
+  .login-wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 40px;
+  }
+  
+  .login-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  
+  .zingo-img {
+    height: 200px;
+  }
+  
+  .login-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-right h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .login-right input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    width: 250px;
+  }
+  
+  .login-right button {
+    background-color: #ffa7b0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 4px #d17b85;
+  }
+  
+  .login-right .signup-text {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: #555;
+  }
+  

@@ -1,0 +1,63 @@
+.admin-page {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #fcb0b3, #fca3d6);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .btn-add {
+    background-color: #f99da3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    margin: 20px 0 10px;
+  }
+  
+  .term-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .term-word {
+    font-size: 18px;
+  }
+  
+  .term-actions button {
+    margin-left: 10px;
+    padding: 5px 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-edit {
+    background-color: #a5f7af;
+  }
+  
+  .btn-delete {
+    background-color: #f7a5a5;
+  }
+  

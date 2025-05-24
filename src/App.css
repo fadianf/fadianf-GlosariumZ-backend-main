@@ -1,0 +1,128 @@
+.glosariumz-app {
+  font-family: "Comic Sans MS", "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #ffb6d9, #fff);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.zingo {
+  height: 180px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.hero-text span {
+  color: #d94aff;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin-top: 5px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.search-bar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 300px;
+}
+
+.search-bar button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px 10px;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.admin-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  text-align: center;
+}
+
+.admin-card img {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.btn.login {
+  background-color: #c7a2ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.trending-terms {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.trending-terms h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.terms-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  justify-content: center;
+}
+
+.term-badge {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: bold;
+}
